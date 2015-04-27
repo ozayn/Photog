@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F15B7E371AEDD6C90046D785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B7E361AEDD6C90046D785 /* AppDelegate.swift */; };
 		F15B7E391AEDD6C90046D785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B7E381AEDD6C90046D785 /* ViewController.swift */; };
-		F15B7E3C1AEDD6C90046D785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15B7E3A1AEDD6C90046D785 /* Main.storyboard */; };
 		F15B7E3E1AEDD6C90046D785 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15B7E3D1AEDD6C90046D785 /* Images.xcassets */; };
 		F15B7E411AEDD6C90046D785 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15B7E3F1AEDD6C90046D785 /* LaunchScreen.xib */; };
 		F15B7E4D1AEDD6C90046D785 /* PhotogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B7E4C1AEDD6C90046D785 /* PhotogTests.swift */; };
@@ -30,7 +29,6 @@
 		F15B7E351AEDD6C90046D785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15B7E361AEDD6C90046D785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15B7E381AEDD6C90046D785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F15B7E3B1AEDD6C90046D785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F15B7E3D1AEDD6C90046D785 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F15B7E401AEDD6C90046D785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F15B7E461AEDD6C90046D785 /* PhotogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +77,6 @@
 			children = (
 				F15B7E361AEDD6C90046D785 /* AppDelegate.swift */,
 				F15B7E381AEDD6C90046D785 /* ViewController.swift */,
-				F15B7E3A1AEDD6C90046D785 /* Main.storyboard */,
 				F15B7E3D1AEDD6C90046D785 /* Images.xcassets */,
 				F15B7E3F1AEDD6C90046D785 /* LaunchScreen.xib */,
 				F15B7E341AEDD6C90046D785 /* Supporting Files */,
@@ -192,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F15B7E3C1AEDD6C90046D785 /* Main.storyboard in Resources */,
 				F15B7E411AEDD6C90046D785 /* LaunchScreen.xib in Resources */,
 				F15B7E3E1AEDD6C90046D785 /* Images.xcassets in Resources */,
 			);
@@ -236,14 +232,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F15B7E3A1AEDD6C90046D785 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F15B7E3B1AEDD6C90046D785 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F15B7E3F1AEDD6C90046D785 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Photog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Photog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
